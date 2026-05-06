@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 10%
 
 @keyframes float1
   0%
@@ -16,17 +16,340 @@
   100%
     transform: translateY(0px)
   
+// Modulo versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.barra-avance__boton--regresar span
+  color: $white !important
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 figcaption
   font-weight: normal
+
+//- Modulo cajones
+.cajon.C01
+  background-color: #D5F4F8
+.cajon.C02
+  background-color: #CFE8FF
+.cajon.C03
+  background-color: #FFF7DF
+.cajon.C04
+  background-color: #FFE79E 
+.cajon.C05
+  background-color: #A4E7F0
+.cajon.C06
+  background-color: #F1E6EF
+.cajon.C07
+  background-color: #9ED1FF
+
+.bg-color
+  &-1
+    background-color: #FFE79E 
+  &-2
+    background-color: #A4E7F0
+
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #CFE8FF
+  &:nth-child(even)
+    background-color: #D5F4F8
+.tarjeta--C01
+  background-color: #CFE8FF
+.tarjeta--C02
+  background-color: #A4E7F0
+.slyder-f__btn i
+  color: #ae0000
+
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, 
+  background-color: #AE0000
+  border: none
+  color: #fff
+
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #CFE8FF
+  &:nth-child(even)
+    background-color: #D5F4F8
+.tarjeta--C01
+  background-color: #CFE8FF
+.tarjeta--C02
+  background-color: #A4E7F0
+.tarjeta--C03
+  background-color: #F1E6EF
+.tarjeta--C04
+  background-color: #69D7E5
+.tarjeta--C05
+  background-color: #9ED1FF
+.tarjeta--C06
+  background-color: #FFE79E 
+.tarjeta--C07
+  background-color: #D5F4F8
+.tarjeta--C08
+  background-color: #FFF7DF
+.tarjeta--C09
+  background-color: #CFE8FF
+.tarjeta--C10
+  background-color: #FFFDC8
+.tarjeta-numerada__numero
+  background-color: #FFB851
+.tarjeta--C11
+  background-color: #FFF0C3
+
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #DFEFFF
+  .acordion__accion__btn--b
+    background-color: #9C2424  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #9C2424
+    border: none
+    color: #ffffff
+
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
+  li
+    .lista-ol--cuadro__vineta
+      span.text-bold
+        color: $black
+
+.BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
+
+.BG02
+  background-image: url("../assets/curso/tema3/fondo-tarjeta.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -6.2rem !important
+
+.BG03
+  background-image: url("../assets/curso/BG03.png")
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//- Modulo slyders
+.tarjeta--slyder
+  height: 100%
+  background-color: white
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #AE0000
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+//- Modulo medidas imagenes
+.img75
+  width: 75px 
+.img80
+  width: 80px 
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+
+//- Módulo figuras y cajones conectados
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #CFE8FF
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #D5F4F8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+//- Modulo crd x4 (1)
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2.4rem
+    height: 100%
+    background-color: #F1E6EF
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-color: #D5F4F8
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      h5
+        color: $black !important
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle
+        &::before
+          background-color: #19538D
+  &.crd--blue
+    background-color: #69D7E5
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 100px
+    height: 100px
+    background-color: #AE0000
+    border-radius: 999px
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #CFE8FF !important 
+    .tarjeta.tarjeta--gris
+      background-color: #6CB9FF
+      span
+        color: $black
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    span
+      color: #000 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F1E6EF
+.tarjeta.tarjeta--gris
+  background-color: #AE0000
+.linea-tiempo-d__item__number
+  span
+    color: #fff
+
+.slyder__btn
+  background-color: #AE0000 !important
+  color: #FFFF !important
+
+.bg
+  &-c1
+    background-color: #D5F4F8
+
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #AE0000
+  border: none
+  color: #fff
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #6CB9FF
+  border: #6CB9FF
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #12263F
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+.pasos-b__header__btn--left i, .pasos-b__header__btn--right i
