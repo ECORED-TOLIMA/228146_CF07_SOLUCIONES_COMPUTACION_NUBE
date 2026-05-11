@@ -178,7 +178,7 @@
                     i.fas.fa-cloud-arrow-down
                     p.mb-0 Proporciona escalabilidad automática que ajusta los recursos según las necesidades del proyecto.
 
-    p.mb-4 Este modelo también presenta diversas ventajas: Reduce el tiempo de desarrollo, ya que todo está listo para usarse.
+    p.mb-4 Este modelo también presenta diversas ventajas:
 
     .row
       .col-12
