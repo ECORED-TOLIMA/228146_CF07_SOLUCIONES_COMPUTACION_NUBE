@@ -71,7 +71,7 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema3/img-07.svg' alt="")
-        h4.text-center Pago por uso, lo que evita inversiones iniciales en hardware costoso.
+        h4.text-center Pago por uso, lo que evita inversiones iniciales en #[i hardware] costoso.
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-right")
         .row.justify-content-center.mb-3
           .col-4
@@ -81,14 +81,14 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema3/img-09.svg' alt="")
-        h4.text-center Flexibilidad para instalar cualquier sistema operativo o software según los objetivos del usuario.
+        h4.text-center Flexibilidad para instalar cualquier sistema operativo o #[i software] según los objetivos del usuario.
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/tema3/img-10.svg' alt="")
         h4.text-center Acceso remoto desde cualquier lugar con conexión a Internet.
 
-    p.mb-4.text-center No obstante, también presenta algunas limitaciones:
+    p.mb-4 No obstante, también presenta algunas limitaciones:
 
     .row.justify-content-center.mb-4
       .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -268,17 +268,17 @@
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 3.3 Software como Servicio (SaaS)
+      h2 3.3 #[i Software] como Servicio (SaaS)
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img-28.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") El Software como Servicio (SaaS) es el modelo más accesible dentro de la computación en la nube, ya que ofrece aplicaciones listas para usarse sin necesidad de conocimientos técnicos avanzados. El usuario únicamente debe registrarse o pagar una suscripción para comenzar a utilizar el servicio desde cualquier dispositivo con conexión a Internet.
+        p.mb-0(data-aos="fade-down") El #[i Software] como Servicio (SaaS) es el modelo más accesible dentro de la computación en la nube, ya que ofrece aplicaciones listas para usarse sin necesidad de conocimientos técnicos avanzados. El usuario únicamente debe registrarse o pagar una suscripción para comenzar a utilizar el servicio desde cualquier dispositivo con conexión a Internet.
 
     p Una forma sencilla de comprender este modelo es mediante la analogía de un apartamento completamente amueblado: la persona solo entra, lo habita y disfruta de sus comodidades, sin preocuparse por la construcción, el mantenimiento o las reparaciones. De manera similar, en SaaS el proveedor se encarga de toda la infraestructura técnica y del funcionamiento del servicio.
-    p.mb-4.text-center Entre las principales características de SaaS se encuentran:
+    p.mb-4 Entre las principales características de SaaS se encuentran:
 
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
@@ -290,7 +290,7 @@
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 1
-              | Aplicaciones accesibles desde navegadores #[i web] o dispositivos móviles.
+              p.mb-0 Aplicaciones accesibles desde navegadores #[i web] o dispositivos móviles.
             li
               .lista-ol--cuadro__vineta
                 span.text-bold 2
@@ -418,9 +418,9 @@
           .row(titulo="PaaS (Plataforma como Servicio)")
             .col-12.mb-0.mb-md-0
               p Brinda un punto intermedio entre control y simplicidad. El proveedor entrega un entorno listo para crear y probar aplicaciones, lo que acelera el desarrollo. Los usuarios se enfocan en programar sin preocuparse por servidores o bases de datos.
-          .row(titulo="SaaS (Software como Servicio)")
+          .row(titulo="SaaS (<em>Software</em> como Servicio)")
             .col-12.mb-0.mb-md-0
-              p Es el modelo más accesible. El software está completamente listo para usar desde cualquier dispositivo con Internet. El proveedor gestiona todo, y el usuario solo debe registrarse o pagar una suscripción.
+              p Es el modelo más accesible. El #[i software] está completamente listo para usar desde cualquier dispositivo con Internet. El proveedor gestiona todo, y el usuario solo debe registrarse o pagar una suscripción.
       .col.col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema3/img-46.png', alt='')

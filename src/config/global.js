@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos y uso de plataformas de computación en la nube',
     Description:
-      'Este componente aborda los fundamentos de la computación en la nube y el uso de sus principales plataformas para el desarrollo y despliegue de servicios digitales. Se analizan los modelos de servicio y despliegue, la infraestructura cloud, los proveedores más utilizados y las estrategias de migración, permitiendo comprender cómo implementar soluciones tecnológicas en entornos de nube.',
+      'Este componente aborda los fundamentos de la computación en la nube y el uso de sus principales plataformas para el desarrollo y despliegue de servicios digitales. Se analizan los modelos de servicio y despliegue, la infraestructura <em>cloud</em>, los proveedores más utilizados y las estrategias de migración, permitiendo comprender cómo implementar soluciones tecnológicas en entornos de nube.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -105,7 +105,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Software como Servicio (SaaS)',
+            titulo: '<em>Software</em> como Servicio (SaaS)',
             hash: 't_3_3',
           },
           {
@@ -284,7 +284,7 @@ export default {
     {
       termino: 'Arquitectura en la nube',
       significado:
-        'estructura que define cómo se organizan e interconectan los componentes de un sistema cloud, incluyendo infraestructura, plataformas, aplicaciones, redes y servicios.',
+        'estructura que define cómo se organizan e interconectan los componentes de un sistema <em>cloud</em>, incluyendo infraestructura, plataformas, aplicaciones, redes y servicios.',
     },
     {
       termino: 'Autenticación multifactor',
@@ -292,7 +292,7 @@ export default {
         'mecanismo de seguridad que requiere más de una forma de verificación para acceder a un sistema, como contraseña, código temporal o verificación biométrica.',
     },
     {
-      termino: 'Big data',
+      termino: '<em>Big data</em>',
       significado:
         'conjunto de tecnologías y metodologías utilizadas para almacenar, procesar y analizar grandes volúmenes de datos que no pueden gestionarse fácilmente con herramientas tradicionales.',
     },
@@ -337,14 +337,14 @@ export default {
         'modelo de servicio cloud que proporciona un entorno completo para desarrollar, ejecutar y gestionar aplicaciones sin que el usuario tenga que administrar la infraestructura subyacente.',
     },
     {
-      termino: 'Software como Servicio (SaaS)',
+      termino: '<em>Software</em> como Servicio (SaaS)',
       significado:
-        'modelo de distribución de software en el cual las aplicaciones se ofrecen a través de Internet y se utilizan mediante un navegador web, sin necesidad de instalación local.',
+        'modelo de distribución de <em>software</em> en el cual las aplicaciones se ofrecen a través de Internet y se utilizan mediante un navegador <em>web</em>, sin necesidad de instalación local.',
     },
     {
       termino: 'Virtualización',
       significado:
-        'tecnología que permite crear versiones virtuales de recursos físicos como servidores, sistemas operativos o redes, optimizando el uso del hardware disponible.',
+        'tecnología que permite crear versiones virtuales de recursos físicos como servidores, sistemas operativos o redes, optimizando el uso del <em>hardware</em> disponible.',
     },
     {
       termino: 'Zero Trust',

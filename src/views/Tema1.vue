@@ -56,7 +56,7 @@
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/tema1/img-06.svg' alt='AvatarTop')
           h4.text-center Virtualización 
-          p El software funciona de forma independiente del hardware físico, lo que facilita la ejecución de aplicaciones en diferentes plataformas.
+          p El #[i software] funciona de forma independiente del hardware físico, lo que facilita la ejecución de aplicaciones en diferentes plataformas.
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6

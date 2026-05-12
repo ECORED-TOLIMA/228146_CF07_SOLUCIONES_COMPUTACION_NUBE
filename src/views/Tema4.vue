@@ -194,7 +194,7 @@
       .col.col-lg-8.col-12.order-lg-2.order-2
         p Desde la perspectiva económica, la nube híbrida representa una optimización de costos. Las inversiones en infraestructura propia se limitan a lo esencial, mientras que los incrementos en la demanda se gestionan mediante servicios de la nube pública bajo el esquema de pago por uso. Esto reduce los gastos en #[i hardware] y mantenimiento, al tiempo que ofrece escalabilidad inmediata.
         .tarjeta--C01.p-4.mb-2(style="border-radius: 19px;")
-          p.mb-0(data-aos="fade-down") La adopción de servicios cloud facilita que empresas, instituciones educativas y entidades públicas puedan almacenar información, ejecutar aplicaciones y gestionar datos sin necesidad de invertir en infraestructura física propia. Gracias a este modelo, las organizaciones pueden reducir costos, optimizar sus operaciones y responder con mayor rapidez a los cambios del entorno digital. 
+          p.mb-0(data-aos="fade-down") En términos de seguridad, este modelo facilita una segmentación estratégica de la información. Los datos sensibles se almacenan en la nube privada bajo controles estrictos, mientras que la información menos crítica se aloja en la nube pública con niveles de protección acordes a su importancia. De esta manera, las organizaciones pueden cumplir con normativas específicas sin perder la flexibilidad que ofrece la nube pública.
 
     p.mb-4.text-center Entre las principales ventajas de la nube híbrida se encuentran:
 
@@ -227,6 +227,11 @@
                     .col-6.col-lg-8
                       img(src="@/assets/curso/tema4/img-25.svg", alt="").img100.m-auto
                   p Continuidad del negocio, con mayor capacidad de recuperación y redundancia en caso de fallos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img-27.svg", alt="").img100.m-auto
+                  p Adaptación estratégica, al permitir mover cargas de trabajo entre entornos según los objetivos de la organización.
 
     p.mb-4 No obstante, su implementación requiere una gestión cuidadosa y personal especializado, ya que la integración entre entornos públicos y privados puede generar desafíos técnicos relacionados con la interoperabilidad, la seguridad o la administración de los sistemas.
 

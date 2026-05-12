@@ -46,7 +46,7 @@
           figure(style="margin:0;")
             img(src='@/assets/curso/tema2/img-03.svg', alt='' style="width:100%; display:block; border-top-left-radius:16px; border-top-right-radius:16px;")  
           .p-4(style="background-color:#FFE79E; border-bottom-left-radius:16px; border-bottom-right-radius:16px;")
-            p.mb-0 #[b Disco duro], destinado al almacenamiento permanente de información y software, permitiendo acceder a archivos y programas incluso después de apagar el equipo.
+            p.mb-0 #[b Disco duro], destinado al almacenamiento permanente de información y #[i software], permitiendo acceder a archivos y programas incluso después de apagar el equipo.
       .col-lg-5
         .tarjeta.h-100(data-aos="fade-right")(style="border-radius: 16px !important; overflow: hidden;")
           figure(style="margin:0;")
@@ -75,7 +75,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C03")
           .row(titulo="Altos costos de infraestructura")
             .col-12.mb-0.mb-md-0
-              p Requieren inversiones significativas en la compra de hardware, licencias de software, mantenimiento de equipos y actualización tecnológica.
+              p Requieren inversiones significativas en la compra de #[i hardware], licencias de #[i software], mantenimiento de equipos y actualización tecnológica.
           .row(titulo="Escalabilidad limitada")
             .col-12.mb-0.mb-md-0
               p Para aumentar la capacidad de almacenamiento o procesamiento es necesario adquirir nuevos equipos o ampliar la infraestructura física, lo que implica tiempo y recursos adicionales.
@@ -116,7 +116,7 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-10v1.png')})`}")
               .tarjeta-slide__contenido.p-auto.p-xl-5
                 h4 Control total
-                p.mb-0 El usuario o la empresa tienen dominio absoluto sobre el hardware, el software y los datos. Esto significa que pueden decidir cómo configurar sus equipos, qué programas instalar y cómo administrar la información, sin depender de terceros.
+                p.mb-0 El usuario o la empresa tienen dominio absoluto sobre el #[i hardware], el #[i software] y los datos. Esto significa que pueden decidir cómo configurar sus equipos, qué programas instalar y cómo administrar la información, sin depender de terceros.
         .col-6.col-md-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
@@ -189,7 +189,7 @@
           .tarjeta.tarjeta--C04.px-5.py-3
             .p-4
               h4 Altos costos
-              p.mb-0 Mantener esta infraestructura requiere una inversión considerable en la compra de equipos, licencias de software y en la contratación de personal técnico para realizar mantenimientos y actualizaciones.
+              p.mb-0 Mantener esta infraestructura requiere una inversión considerable en la compra de equipos, licencias de #[i software] y en la contratación de personal técnico para realizar mantenimientos y actualizaciones.
       .col.col-lg-6.mb-4.mb-lg-0.g-4(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
@@ -198,7 +198,7 @@
           .tarjeta.tarjeta--C04.px-5.py-3
             .p-4
               h4 Escalabilidad limitada
-              p.mb-0 Ampliar la capacidad de almacenamiento o procesamiento implica adquirir nuevo hardware o instalar servidores adicionales, procesos que resultan costosos, lentos y poco flexibles.
+              p.mb-0 Ampliar la capacidad de almacenamiento o procesamiento implica adquirir nuevo #[i hardware] o instalar servidores adicionales, procesos que resultan costosos, lentos y poco flexibles.
       .col.col-lg-6.mb-4.mb-lg-0.g-4(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img

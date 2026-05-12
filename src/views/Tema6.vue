@@ -63,7 +63,7 @@
                 img(src='@/assets/curso/tema6/img-10.svg', alt="")
               .col-lg-8(data-aos="fade-left")
                 h3 Redes
-                p.mb-0 Incluyen dispositivos como routers, switches y redes definidas por software, que permiten establecer conexiones seguras, rápidas y administrables entre usuarios, aplicaciones y centros de datos ubicados en diferentes regiones.
+                p.mb-0 Incluyen dispositivos como #[i routers, switches] y redes definidas por #[i software], que permiten establecer conexiones seguras, rápidas y administrables entre usuarios, aplicaciones y centros de datos ubicados en diferentes regiones.
             .row.justify-content-center
               .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
                 h3 Sistemas de almacenamiento
@@ -121,7 +121,7 @@
               p Incluye herramientas, entornos de desarrollo, bases de datos y servicios que facilitan la creación, prueba y despliegue de aplicaciones sin que los desarrolladores deban gestionar directamente la infraestructura subyacente.
           .row(titulo="Capa de aplicaciones o servicios")
             .col-12.mb-0.mb-md-0
-              p Es el nivel visible para los usuarios finales. Aquí se encuentran las aplicaciones web, sistemas de información, plataformas educativas, sistemas empresariales o cualquier servicio que se utilice a través de Internet.
+              p Es el nivel visible para los usuarios finales. Aquí se encuentran las aplicaciones #[i web], sistemas de información, plataformas educativas, sistemas empresariales o cualquier servicio que se utilice a través de Internet.
           .row(titulo="Capa de gestión y seguridad")
             .col-12.mb-0.mb-md-0
               p Integra los mecanismos de monitoreo, control de acceso, autenticación, copias de seguridad y administración de recursos. Esta capa permite garantizar la protección de los datos y el funcionamiento estable de los servicios.
@@ -215,6 +215,8 @@
         figure
           img(src='@/assets/curso/tema6/img-25.png', alt='')
 
+    p.mb-4 Este enfoque permite establecer un entorno confiable y adaptable, capaz de responder tanto a las demandas técnicas como a los requisitos normativos de sectores sensibles.
+    
     .row.justify-content-center.align-items-stretch.g-0
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C01.p-4.h-100.w-100
@@ -299,14 +301,14 @@ export default {
       {
         titulo: 'Conectividad a Internet estable',
         texto:
-          'Es indispensable contar con una conexión confiable y de buena velocidad, ya que todos los servicios cloud se gestionan y utilizan a través de Internet.',
+          'Es indispensable contar con una conexión confiable y de buena velocidad, ya que todos los servicios <em>cloud</em> se gestionan y utilizan a través de Internet.',
         imagen: require('@/assets/curso/tema6/img-03.png'),
         // leyendaImagen: 'Leyenda_de_la_imagen',
       },
       {
         titulo: 'Dispositivos compatibles',
         texto:
-          'Computadores, servidores o dispositivos móviles que permitan acceder a los servicios mediante navegadores web o aplicaciones especializadas.',
+          'Computadores, servidores o dispositivos móviles que permitan acceder a los servicios mediante navegadores <em>web</em> o aplicaciones especializadas.',
         imagen: require('@/assets/curso/tema6/img-04.png'),
         // leyendaImagen: 'Leyenda_de_la_imagen',
       },

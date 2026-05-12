@@ -53,13 +53,13 @@
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-05.svg' alt='AvatarTop')
           h4.text-center Refactorización o rediseño (Refactor)
-          p Se basa en modificar la arquitectura de la aplicación para adaptarla plenamente al entorno cloud. Este proceso puede incluir la división del sistema en microservicios, la optimización del código y la adopción de servicios nativos de la nube.
+          p Se basa en modificar la arquitectura de la aplicación para adaptarla plenamente al entorno #[i cloud]. Este proceso puede incluir la división del sistema en microservicios, la optimización del código y la adopción de servicios nativos de la nube.
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-06.svg' alt='AvatarTop')
           h4.text-center Recompra (Repurchase)
-          p Consiste en reemplazar una aplicación existente por una solución basada en Software Como Servicio (SaaS), disponible directamente en la nube. Esta estrategia es común cuando existen plataformas especializadas que cumplen la misma función de manera más eficiente.
+          p Consiste en reemplazar una aplicación existente por una solución basada en #[i Software] Como Servicio (SaaS), disponible directamente en la nube. Esta estrategia es común cuando existen plataformas especializadas que cumplen la misma función de manera más eficiente.
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
@@ -79,7 +79,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema7/img-08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p El proceso de migración hacia la nube se apoya en diferentes herramientas especializadas que facilitan el traslado de aplicaciones, bases de datos, servidores y datos desde infraestructuras locales hacia plataformas cloud. Estas herramientas permiten automatizar tareas, reducir riesgos durante la migración y garantizar la continuidad de los servicios.
+        p El proceso de migración hacia la nube se apoya en diferentes herramientas especializadas que facilitan el traslado de aplicaciones, bases de datos, servidores y datos desde infraestructuras locales hacia plataformas #[i cloud]. Estas herramientas permiten automatizar tareas, reducir riesgos durante la migración y garantizar la continuidad de los servicios.
         br 
         br
         p Cada proveedor de nube dispone de soluciones propias que simplifican el proceso de traslado y adaptación de los sistemas existentes.
@@ -161,7 +161,7 @@
           .row.justify-content-center.p-4(titulo="")
             .col-lg-5.order-lg-2.order-2
               h4 Gestión de configuraciones
-              p Es importante mantener un control organizado de las configuraciones del sistema, versiones de software y dependencias. Esto facilita la actualización de los servicios y evita inconsistencias entre diferentes entornos.
+              p Es importante mantener un control organizado de las configuraciones del sistema, versiones de #[i software] y dependencias. Esto facilita la actualización de los servicios y evita inconsistencias entre diferentes entornos.
             .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/tema7/img-12.png', alt='')
@@ -226,7 +226,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C03")
           .row(titulo="Despliegue de aplicaciones o servicios")
             .col-12.mb-0.mb-md-0
-              p Posteriormente se implementan aplicaciones, páginas web, sistemas de gestión o herramientas de análisis de datos. Las plataformas cloud permiten realizar estos despliegues mediante interfaces gráficas, plantillas automatizadas o comandos especializados.
+              p Posteriormente se implementan aplicaciones, páginas #[i web], sistemas de gestión o herramientas de análisis de datos. Las plataformas #[i cloud] permiten realizar estos despliegues mediante interfaces gráficas, plantillas automatizadas o comandos especializados.
           .row(titulo="Monitoreo y gestión del entorno")
             .col-12.mb-0.mb-md-0
               p Una vez desplegado el servicio, se supervisa su funcionamiento mediante herramientas de monitoreo que permiten revisar el consumo de recursos, el rendimiento del sistema y posibles incidencias.
