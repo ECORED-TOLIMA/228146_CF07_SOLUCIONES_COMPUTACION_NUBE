@@ -36,7 +36,7 @@
           img(src='@/assets/curso/tema3/img-04.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
-              h5.text-center #[i Software] como Servicio (SaaS)
+              h5.text-center Software como Servicio (SaaS)
     
     p.mb-4 Cada uno de estos modelos responde a diferentes necesidades y ofrece distintos niveles de control, gestión y responsabilidad para los usuarios.
 
@@ -268,14 +268,14 @@
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 3.3 #[i Software] como Servicio (SaaS)
+      h2 3.3 Software como Servicio (SaaS)
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img-28.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") El #[i Software] como Servicio (SaaS) es el modelo más accesible dentro de la computación en la nube, ya que ofrece aplicaciones listas para usarse sin necesidad de conocimientos técnicos avanzados. El usuario únicamente debe registrarse o pagar una suscripción para comenzar a utilizar el servicio desde cualquier dispositivo con conexión a Internet.
+        p.mb-0(data-aos="fade-down") El Software como Servicio (SaaS) es el modelo más accesible dentro de la computación en la nube, ya que ofrece aplicaciones listas para usarse sin necesidad de conocimientos técnicos avanzados. El usuario únicamente debe registrarse o pagar una suscripción para comenzar a utilizar el servicio desde cualquier dispositivo con conexión a Internet.
 
     p Una forma sencilla de comprender este modelo es mediante la analogía de un apartamento completamente amueblado: la persona solo entra, lo habita y disfruta de sus comodidades, sin preocuparse por la construcción, el mantenimiento o las reparaciones. De manera similar, en SaaS el proveedor se encarga de toda la infraestructura técnica y del funcionamiento del servicio.
     p.mb-4 Entre las principales características de SaaS se encuentran:
@@ -418,9 +418,9 @@
           .row(titulo="PaaS (Plataforma como Servicio)")
             .col-12.mb-0.mb-md-0
               p Brinda un punto intermedio entre control y simplicidad. El proveedor entrega un entorno listo para crear y probar aplicaciones, lo que acelera el desarrollo. Los usuarios se enfocan en programar sin preocuparse por servidores o bases de datos.
-          .row(titulo="SaaS (<em>Software</em> como Servicio)")
+          .row(titulo="SaaS (Software como Servicio)")
             .col-12.mb-0.mb-md-0
-              p Es el modelo más accesible. El #[i software] está completamente listo para usar desde cualquier dispositivo con Internet. El proveedor gestiona todo, y el usuario solo debe registrarse o pagar una suscripción.
+              p Es el modelo más accesible. El software está completamente listo para usar desde cualquier dispositivo con Internet. El proveedor gestiona todo, y el usuario solo debe registrarse o pagar una suscripción.
       .col.col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema3/img-46.png', alt='')

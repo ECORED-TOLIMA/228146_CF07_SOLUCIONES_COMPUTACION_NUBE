@@ -59,7 +59,7 @@
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-06.svg' alt='AvatarTop')
           h4.text-center Recompra (Repurchase)
-          p Consiste en reemplazar una aplicación existente por una solución basada en #[i Software] Como Servicio (SaaS), disponible directamente en la nube. Esta estrategia es común cuando existen plataformas especializadas que cumplen la misma función de manera más eficiente.
+          p Consiste en reemplazar una aplicación existente por una solución basada en software Como Servicio (SaaS), disponible directamente en la nube. Esta estrategia es común cuando existen plataformas especializadas que cumplen la misma función de manera más eficiente.
         .tarjeta.tarjeta--C02.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6

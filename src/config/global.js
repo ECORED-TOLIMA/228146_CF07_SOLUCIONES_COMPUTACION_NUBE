@@ -105,7 +105,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: '<em>Software</em> como Servicio (SaaS)',
+            titulo: 'Software como Servicio (SaaS)',
             hash: 't_3_3',
           },
           {
@@ -337,7 +337,7 @@ export default {
         'modelo de servicio cloud que proporciona un entorno completo para desarrollar, ejecutar y gestionar aplicaciones sin que el usuario tenga que administrar la infraestructura subyacente.',
     },
     {
-      termino: '<em>Software</em> como Servicio (SaaS)',
+      termino: 'Software como Servicio (SaaS)',
       significado:
         'modelo de distribución de <em>software</em> en el cual las aplicaciones se ofrecen a través de Internet y se utilizan mediante un navegador <em>web</em>, sin necesidad de instalación local.',
     },
