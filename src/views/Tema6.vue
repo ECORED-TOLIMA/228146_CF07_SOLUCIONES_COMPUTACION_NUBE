@@ -320,9 +320,9 @@ export default {
         // leyendaImagen: 'Leyenda_de_la_imagen',
       },
       {
-        titulo: 'Navegador web moderno',
+        titulo: 'Navegador <em>web</em> moderno',
         texto:
-          'Navegadores como Google Chrome, Mozilla Firefox o Microsoft Edge facilitan el acceso a los portales de administración de las plataformas cloud.',
+          'Navegadores como Google Chrome, Mozilla Firefox o Microsoft Edge facilitan el acceso a los portales de administración de las plataformas <em>cloud.</em>',
         imagen: require('@/assets/curso/tema6/img-06.png'),
         // leyendaImagen: 'Leyenda_de_la_imagen',
       },

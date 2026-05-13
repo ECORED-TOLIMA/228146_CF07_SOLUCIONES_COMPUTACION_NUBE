@@ -219,7 +219,7 @@
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Fortaleza en bases de datos")
             .col-12.mb-4.mb-md-0
-              p.mb-0 integra de manera nativa Oracle Database y soluciones avanzadas como Oracle Autonomous Database, que optimiza la administración y reduce la intervención manual mediante procesos automatizados.
+              p.mb-0 Integra de manera nativa Oracle Database y soluciones avanzadas como Oracle Autonomous Database, que optimiza la administración y reduce la intervención manual mediante procesos automatizados.
           .row(numero="2" titulo="Alto rendimiento en infraestructura")
             .col-12.mb-4.mb-md-0
               p.mb-0 Ofrece máquinas virtuales, almacenamiento de baja latencia y redes de alta velocidad diseñadas para aplicaciones empresariales exigentes.

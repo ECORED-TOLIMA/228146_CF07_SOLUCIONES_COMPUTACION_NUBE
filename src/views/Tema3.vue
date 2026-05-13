@@ -36,7 +36,7 @@
           img(src='@/assets/curso/tema3/img-04.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
-              h5.text-center Software como Servicio (SaaS)
+              h5.text-center #[i Software] como Servicio (SaaS)
     
     p.mb-4 Cada uno de estos modelos responde a diferentes necesidades y ofrece distintos niveles de control, gestión y responsabilidad para los usuarios.
 
