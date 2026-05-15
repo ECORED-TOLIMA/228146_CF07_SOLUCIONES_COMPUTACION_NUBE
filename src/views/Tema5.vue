@@ -107,7 +107,7 @@
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Portal <em>web</em> amigable")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Antes de recopilar requisitos, es importante conocer el entorno organizacional, los procesos existentes y las necesidades reales del negocio.
+              p.mb-0 Con paneles de control claros e intuitivos que facilitan la administración de recursos y la configuración de servicios.
           .row(numero="2" titulo="Amplia gama de servicios")
             .col-12.mb-4.mb-md-0
               p.mb-0 Que incluye almacenamiento en la nube, redes virtuales, bases de datos, análisis de datos y aplicaciones empresariales.

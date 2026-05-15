@@ -72,7 +72,7 @@
         .row.justify-content-center
           .col
             .tarjeta.tarjeta--blanca.p-4(style="border: 1px solid #E6E6E6; box-shadow: 0 2px 6px rgba(0,0,0,0.08); border-radius: 19px;")
-              p.text-bold(data-aos="fade-down") Entre las funciones principales del analista de requisitos se destacan:
+              p.text-bold(data-aos="fade-down") Entre sus aplicaciones más comunes se encuentran:
                 ul.lista-ul--color.mt-4(data-aos="fade-down")
                   li
                     i.fas.fa-cloud-arrow-down
